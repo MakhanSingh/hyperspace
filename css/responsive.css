@@ -1,0 +1,110 @@
+@media (max-width:1500px) {
+    .ms-sidebar {
+        min-width: 300px;
+    }
+    .ms-content {
+        padding-left: 300px;
+    }
+    .ms-first-row,  
+    .ms-fifth-row, 
+    .ms-sixth-row, 
+    .ms-footer-row {
+        padding: 50px;
+    }
+    .ms-second-row > div:last-child, 
+    .ms-third-row > div:last-child, 
+    .ms-forth-row > div:last-child {
+        padding: 30px;
+    }
+    .ms-inner-row > div {
+        padding: 25px;
+    }
+}
+
+@media (max-width:1250px) {
+    header {
+        display: block !important;
+    }
+    .ms-sidebar {
+        display: none !important;
+    }
+    .ms-content {
+        padding-left: 0;
+    }
+}
+
+@media (max-width:991px) {
+    .ms-form-row > div:first-child {
+        border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+        border-right: none;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:900px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 17px;
+    }
+    .ms-btn {
+        padding: 16px 30px;
+    }
+    .ms-inner-row .ms-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width:767px) {
+    .ms-second-row > div:last-child, .ms-third-row > div:last-child, .ms-forth-row > div:last-child {
+        padding: 50px;
+    }
+    .ms-inner-row .col-md-6:first-child,
+    .ms-inner-row .col-md-6:nth-child(5)  {
+        border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+    }
+    .ms-footer-row ul {
+        font-size: 16px;
+    }
+    .ms-footer-row ul > li {
+        margin-left: 2px;
+        padding-left: 6px;
+    }
+}
+
+@media (max-width:550px) {
+    h1 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 19px;
+    }
+    .ms-first-row, .ms-footer-row {
+        padding: 20px 10px;
+    }
+    .ms-second-row > div:last-child, .ms-third-row > div:last-child, .ms-forth-row > div:last-child {
+        padding: 40px 20px;
+    }
+    .ms-fifth-row, .ms-sixth-row {
+        padding: 50px 20px;
+    }
+    .ms-inner-row > div {
+        padding: 15px;
+    }
+    .ms-footer-row ul {
+        font-size: 14px;
+    }
+}
